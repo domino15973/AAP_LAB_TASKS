@@ -1,18 +1,15 @@
-# Wykluczenie środowiska wirtualnego venv
-venv/
-
-# Cache i pliki tymczasowe Pythona
+# Python artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-.pytest_cache/
 
-# Pliki Jupyter Notebook
-.ipynb_checkpoints/
+# Jupyter artifacts
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Pliki systemowe i IDE
+# Logs (all lab folders)
+*.log
+materialy/**/*.log
+
+# OS files
 .DS_Store
-.vscode/
-
-# Requirements.txt zostawiamy, aby inni mogli odtworzyć środowisko
-# requirements.txt
