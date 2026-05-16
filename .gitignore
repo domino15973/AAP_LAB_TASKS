@@ -17,3 +17,6 @@ materialy/**/*.log
 
 # OS files
 .DS_Store
+
+# Large datasets
+otomoto_offers_eng_23-04-2023.csv
