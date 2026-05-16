@@ -20,3 +20,7 @@ materialy/**/*.log
 
 # Large datasets
 otomoto_offers_eng_23-04-2023.csv
+
+# Spark output
+*.parquet
+chicago_crimes_parquet/
