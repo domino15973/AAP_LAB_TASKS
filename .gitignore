@@ -24,3 +24,14 @@ otomoto_offers_eng_23-04-2023.csv
 # Spark output
 *.parquet
 chicago_crimes_parquet/
+
+# Zestaw zaliczeniowy - generowane artefakty workspace (notebook odtwarza je przy kazdym runie)
+zestaw_zaliczeniowy/_workspace/imdb_json.db
+zestaw_zaliczeniowy/_workspace/imdb_sql_timed.db
+zestaw_zaliczeniowy/_workspace/flaky_cache/
+zestaw_zaliczeniowy/_workspace/*.png
+zestaw_zaliczeniowy/_workspace/data_quality_report.json
+zestaw_zaliczeniowy/_workspace/tokenizer.py
+zestaw_zaliczeniowy/_workspace/test_tokenizer.py
+zestaw_zaliczeniowy/_workspace/sentiment_lib.py
+zestaw_zaliczeniowy/_workspace/.pytest_cache/
